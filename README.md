@@ -12,14 +12,11 @@ access token useri logged in protected etmek üçün edin, refresh tokeni acces 
 
 login etmiş userin datasıı yoxlamaq üçün
 
-http://127.0.0.1:8000/user        url i ilə birlikdə header olaraq "Bearer acces token" request edin
-
-
-http://127.0.0.1:8000/logut       üçün də eyni requesti edin
-http://127.0.0.1:8000/refresh     urllə birlikdə "Bearer refresh token request edin"
-
-http://127.0.0.1:8000/task        response olaraq task id gelecek
-http://127.0.0.1:8000/status      celery task id ni  
+http://127.0.0.1:8000/user     -   url i ilə birlikdə header olaraq "Bearer acces token" request edin <br />
+http://127.0.0.1:8000/logut     -  üçün də eyni requesti edin <br />
+http://127.0.0.1:8000/refresh   -  urllə birlikdə "Bearer refresh token request edin" <br />
+http://127.0.0.1:8000/task      -  response olaraq task id gelecek <br />
+http://127.0.0.1:8000/status    -  celery task id ni  <br />
 
 {
     "id": "task id"
