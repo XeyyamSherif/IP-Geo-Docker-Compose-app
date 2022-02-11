@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  app:
+    build: ./app/
+    command:  bash -c "uvicorn main:app --host 0.0.0.0"
+    ports:
+      - 8000:8000
+  
+  
+  rabbit:
+      hostname: rabbit
+      image: "rabbitmq:3-management"
+      environment:
+        - RABBITMQ_DEFAULT_USER=admin
+        - RABBITMQ_DEFAULT_PASS=mypass
+      ports:
+        - "15672:15672"
+        - "5672:5672"
+       
+  worker:
+    build: './app'
+    command: celery -A tasks worker --loglevel=info
+    user: nobody
+    depends_on:
+      - rabbit
+      - app
+  
+
+  db:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+        - '3306:3306' 
+    expose:   
+        - '3306'
