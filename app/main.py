@@ -4,7 +4,6 @@ from models.schemas import User, UserLogin, StatusSchema
 from models.models import UserModel, TaskModel
 from models.base import db
 from fastapi_jwt_auth import AuthJWT
-from ipdata import ipdata
 from requests import get
 from celery import Celery
 from tasks import longtime_add, celery_app
