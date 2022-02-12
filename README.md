@@ -12,7 +12,8 @@ access token useri logged in protected etmek üçün edin, refresh tokeni acces 
 
 login etmiş userin datasıı yoxlamaq üçün
 
-http://127.0.0.1:8000/user     -   url i ilə birlikdə header olaraq "Bearer acces token" request edin <br />
+http://127.0.0.1:8000/login     -  login üçün 'username və password'  json formatında göndərin  (response de acces token və refresh token olacaq)
+http://127.0.0.1:8000/user      -  url i ilə birlikdə header olaraq "Bearer acces token" request edin <br />
 http://127.0.0.1:8000/logut     -  üçün də eyni requesti edin <br />
 http://127.0.0.1:8000/refresh   -  urllə birlikdə "Bearer refresh token request edin" <br />
 http://127.0.0.1:8000/task      -  response olaraq task id gelecek <br />
