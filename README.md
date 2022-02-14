@@ -17,7 +17,7 @@ access token useri logged in protected etmek üçün edin, refresh tokeni acces 
 
 ### tokenlərin istifadəsi
 
-login etmiş userin datasıı yoxlamaq üçün
+login etmiş userin datasıı yoxlamaq üçün<br />
 http://127.0.0.1:8000/sign_up   -  POST method ilə  json formatında  "id, first_name, password" gəndərin. 'first_name' logində username kimi işlədin<br />
 http://127.0.0.1:8000/login     -  login üçün 'username və password'  json formatında göndərin  (response de acces token və refresh token olacaq)<br />
 http://127.0.0.1:8000/user      -  url i ilə birlikdə header olaraq "Bearer acces token" request edin <br />
