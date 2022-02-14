@@ -1,4 +1,4 @@
-# IP-Geo-Docker-Compose-app
+# IP-Geo-FastApi-app
 
 unittestləri etməyə çatdıra bilmədim, amma pytest təcrübəm var
 
