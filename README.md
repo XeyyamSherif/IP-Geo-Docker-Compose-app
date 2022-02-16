@@ -2,14 +2,18 @@
 
 unittestləri etməyə çatdıra bilmədim, amma pytest təcrübəm var
 
-Bu postman collectionda bütün url nümunələri var:
-### https://go.postman.co/workspace/Team-Workspace~b7928d26-f491-411d-800c-995ccbf0ebdd/collection/13456460-89d9f768-9839-4bae-8001-02f902e7d08b
+### Proqramın çalışdırılması:
+ - resository-ni komputerinizı yükləyin
+ - repositorynin olduğu file üçün terminalda "docker-compose up" commandını daxil edin 
 
 
 
+### Bu postman collectionda bütün url nümunələri var:
+##### https://go.postman.co/workspace/Team-Workspace~b7928d26-f491-411d-800c-995ccbf0ebdd/collection/13456460-89d9f768-9839-4bae-8001-02f902e7d08b
 
-swaggear ui:
-### http://127.0.0.1:8000/docs
+
+### swaggear ui:
+##### http://127.0.0.1:8000/docs
 
 
 User login etdikdən sonra 2 token verir: refresh token və access token
