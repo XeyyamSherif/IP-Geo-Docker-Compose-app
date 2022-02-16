@@ -13,10 +13,6 @@ from celery.result import AsyncResult
 app = FastAPI()
 
 
-@app.get('/celery')
-def yoxlama():
-    longtime_add.delay('salam')
-    return "bax da"
 
 
 @app.on_event("startup")
