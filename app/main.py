@@ -13,8 +13,6 @@ from celery.result import AsyncResult
 app = FastAPI()
 
 
-
-
 @app.on_event("startup")
 def startup():
     db.connect()
