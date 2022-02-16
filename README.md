@@ -3,7 +3,7 @@
 unittestləri etməyə çatdıra bilmədim, amma pytest təcrübəm var
 
 ### Proqramın çalışdırılması:
- - resository-ni komputerinizı yükləyin
+ - resository-ni komputerinizə yükləyin
  - repositorynin olduğu file üçün terminalda "docker-compose up" commandını daxil edin 
 
 
