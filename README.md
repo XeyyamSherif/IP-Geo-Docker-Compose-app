@@ -16,15 +16,17 @@ unittestləri etməyə çatdıra bilmədim, amma pytest təcrübəm var
 ##### http://127.0.0.1:8000/docs
 
 
-User login etdikdən sonra 2 token verir: refresh token və access token
-access token useri logged in protected etmek üçün edin, refresh tokeni acces tokeni yeniləmək üçün
 
 ### tokenlərin istifadəsi
 
-login etmiş userin datasıı yoxlamaq üçün<br />
+User login etdikdən sonra 2 token verir: refresh token və access token
+access token useri logged in protected etmek üçün edin, refresh tokeni acces tokeni yeniləmək üçün
+
+
 http://127.0.0.1:8000/sign_up   -  POST method ilə  json formatında  "id, first_name, password" gəndərin. 'first_name' logində username kimi işlədin<br />
 http://127.0.0.1:8000/login     -  login üçün 'username və password'  json formatında göndərin  (response de acces token və refresh token olacaq)<br />
-http://127.0.0.1:8000/user      -  url i ilə birlikdə header olaraq "Bearer acces token" request edin <br />
+http://127.0.0.1:8000/user      -  url i ilə birlikdə header olaraq "Bearer acces token" request edin, bu url-i login etmiş userin datasıı yoxlamaq üçün
+istifade edin <br />
 http://127.0.0.1:8000/logut     -  üçün də eyni requesti edin <br />
 http://127.0.0.1:8000/refresh   -  urllə birlikdə "Bearer refresh token request edin" <br />
 http://127.0.0.1:8000/task      -  response olaraq task id gelecek <br />
