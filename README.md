@@ -1,6 +1,6 @@
 # IP-Geo-FastApi-app
 
-unittestləri etməyə çatdıra bilmədim, amma pytest təcrübəm var,istəsəz modəllər ve funksionallıqlar(password hashing, error handlingvə s.) barədə istənilən dəyişikliyi də edə bilərəm
+unittestləri etməyə çatdıra bilmədim, amma pytest təcrübəm var,vaxt azlığından basic app yaratmağa çalışdım, istəsəz modəllər ve funksionallıqlar(password hashing, error handling və s.) barədə istənilən əlavələri də edə bilərəm. 
 
 ### Proqramın çalışdırılması:
  - resository-ni komputerinizə yükləyin
