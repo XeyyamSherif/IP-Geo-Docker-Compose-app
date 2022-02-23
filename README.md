@@ -31,10 +31,12 @@ http://127.0.0.1:8000/logut     -  üçün də eyni requesti edin <br />
 http://127.0.0.1:8000/refresh   -  urllə birlikdə "Bearer refresh token request edin" <br />
 http://127.0.0.1:8000/task      -  response olaraq task id gelecek <br />
 http://127.0.0.1:8000/status    -  celery task id ni  <br />
-
+```
 {
     "id": "task id"
 }
+```
+
 kimi gonderin
 
 Note: hələlik azərbaycanca readme yazdım
