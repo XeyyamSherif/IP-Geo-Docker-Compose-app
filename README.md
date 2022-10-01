@@ -39,4 +39,3 @@ http://127.0.0.1:8000/status    -  celery task id ni  <br />
 
 kimi gonderin
 
-Note: hələlik azərbaycanca readme yazdım
